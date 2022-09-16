@@ -57,6 +57,10 @@
     var date = `${dayOfWeek}, ${monthNames[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
 
    
+      document.getElementById('lbl').innerHTML = `
+        <div class="container">
+          <div id="date"> ${date}</div>
+          <div class="greeting">${greet}</div>
         <div/>
     `;
 </script> 
